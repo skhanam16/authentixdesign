@@ -40,7 +40,7 @@ const Hero = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
         <div className="mt-10">
-          <Link className="btn btn-primary">Our products</Link>
+          <Link to="/products" className="btn btn-primary">Our products</Link>
         </div>
       </div>
 
