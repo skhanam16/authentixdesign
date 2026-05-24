@@ -7,8 +7,8 @@ const getUserFromLocalStorage = () =>{
 }
 
 const initialState ={
-    user: getUserFromLocalStorage,
-    theme: 'halloween',
+    user: getUserFromLocalStorage(),
+    // theme: 'halloween',
 }
 
 
